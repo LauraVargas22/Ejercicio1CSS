@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Open+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(#accbee 0%, #e7f0fd 100%);;
+    background-image: url('../images/fondo.jpg');
+    object-fit: contain;
+}
+.containerText {
+    text-align: center;
+    padding-top: 300px;
+}
+.title {
+    font-family: "DynaPuff", system-ui;
+    text-align: center;
+    color: black;
+}
+.text {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.link {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    background-color: white;
+    text-decoration: none;
+    color: black; 
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
